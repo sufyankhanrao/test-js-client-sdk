@@ -1,9 +1,9 @@
 
-# Sepa Debit Response
+# SEPA Debit Response
 
 ## Structure
 
-`SepaDebitResponse`
+`SEPADebitResponse`
 
 ## Fields
 
@@ -12,7 +12,7 @@
 | `ibanLastChars` | `string \| undefined` | Optional | The last characters of the IBAN used to pay.<br>**Constraints**: *Minimum Length*: `4`, *Maximum Length*: `34`, *Pattern*: `[a-zA-Z0-9]{4}` |
 | `accountHolderName` | `unknown \| undefined` | Optional | - |
 | `billingAddress` | [`Address \| undefined`](../../doc/models/address.md) | Optional | The portable international postal address. Maps to [AddressValidationMetadata](https://github.com/googlei18n/libaddressinput/wiki/AddressValidationMetadata) and HTML 5.1 [Autofilling form controls: the autocomplete attribute](https://www.w3.org/TR/html51/sec-forms.html#autofilling-form-controls-the-autocomplete-attribute). |
-| `authorizationDetails` | [`SepaDebitAuthorizationDetails \| undefined`](../../doc/models/sepa-debit-authorization-details.md) | Optional | Authorization details. |
+| `authorizationDetails` | [`SEPADebitAuthorizationDetails \| undefined`](../../doc/models/sepa-debit-authorization-details.md) | Optional | Authorization details. |
 
 ## Example (as JSON)
 

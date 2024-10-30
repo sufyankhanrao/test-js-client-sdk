@@ -55,7 +55,7 @@ requestOptions?: RequestOptions): Promise<ApiResponse<Order>>
 ```ts
 const collect = {
   body: {
-    intent: CheckoutPaymentIntent.Capture,
+    intent: CheckoutPaymentIntent.CAPTURE,
     purchaseUnits: [
       {
         amount: {
@@ -234,7 +234,7 @@ const collect = {
   prefer: 'return=minimal',
   body: {
     paymentSource: {},
-    processingInstruction: ProcessingInstruction.NoInstruction,
+    processingInstruction: ProcessingInstruction.NOINSTRUCTION,
   }
 }
 

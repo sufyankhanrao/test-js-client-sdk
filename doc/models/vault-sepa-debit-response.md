@@ -1,11 +1,11 @@
 
-# Vault Sepa Debit Response
+# Vault SEPA Debit Response
 
 An API resource used in the response of securely storing a SEPA Debit.
 
 ## Structure
 
-`VaultSepaDebitResponse`
+`VaultSEPADebitResponse`
 
 ## Fields
 

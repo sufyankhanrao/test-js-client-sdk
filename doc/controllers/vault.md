@@ -51,7 +51,7 @@ const collect = {
     paymentSource: {
       token: {
         id: '1234',
-        type: TokenType.SetupToken,
+        type: TokenType.SETUPTOKEN,
       },
     },
   }

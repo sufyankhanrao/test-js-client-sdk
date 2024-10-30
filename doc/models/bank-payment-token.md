@@ -11,8 +11,8 @@ Full representation of a Bank Payment Token.
 
 | Name | Type | Tags | Description |
 |  --- | --- | --- | --- |
-| `achDebit` | [`AchDebitResponse \| undefined`](../../doc/models/ach-debit-response.md) | Optional | A Resource representing a response of vaulted a ACH Debit Account. |
-| `sepaDebit` | [`SepaDebitResponse \| undefined`](../../doc/models/sepa-debit-response.md) | Optional | - |
+| `achDebit` | [`ACHDebitResponse \| undefined`](../../doc/models/ach-debit-response.md) | Optional | A Resource representing a response of vaulted a ACH Debit Account. |
+| `sepaDebit` | [`SEPADebitResponse \| undefined`](../../doc/models/sepa-debit-response.md) | Optional | - |
 
 ## Example (as JSON)
 

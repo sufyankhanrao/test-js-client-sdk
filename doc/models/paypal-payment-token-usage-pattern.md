@@ -11,10 +11,10 @@ Expected business/pricing model for the billing agreement.
 
 | Name |
 |  --- |
-| `Immediate` |
-| `Deferred` |
-| `RecurringPrepaid` |
-| `RecurringPostpaid` |
-| `ThresholdPrepaid` |
-| `ThresholdPostpaid` |
+| `IMMEDIATE` |
+| `DEFERRED` |
+| `RECURRINGPREPAID` |
+| `RECURRINGPOSTPAID` |
+| `THRESHOLDPREPAID` |
+| `THRESHOLDPOSTPAID` |
 

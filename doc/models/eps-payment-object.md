@@ -1,11 +1,11 @@
 
-# Eps Payment Object
+# EPS Payment Object
 
 Information used to pay using eps.
 
 ## Structure
 
-`EpsPaymentObject`
+`EPSPaymentObject`
 
 ## Fields
 

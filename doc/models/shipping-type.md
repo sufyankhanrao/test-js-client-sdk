@@ -11,8 +11,8 @@ A classification for the method of purchase fulfillment.
 
 | Name |
 |  --- |
-| `Shipping` |
-| `Pickup` |
-| `PickupInStore` |
-| `PickupFromPerson` |
+| `SHIPPING` |
+| `PICKUP` |
+| `PICKUPINSTORE` |
+| `PICKUPFROMPERSON` |
 

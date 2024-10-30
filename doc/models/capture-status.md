@@ -11,10 +11,10 @@ The status of the captured payment.
 
 | Name |
 |  --- |
-| `Completed` |
-| `Declined` |
-| `PartiallyRefunded` |
-| `Pending` |
-| `Refunded` |
-| `Failed` |
+| `COMPLETED` |
+| `DECLINED` |
+| `PARTIALLYREFUNDED` |
+| `PENDING` |
+| `REFUNDED` |
+| `FAILED` |
 

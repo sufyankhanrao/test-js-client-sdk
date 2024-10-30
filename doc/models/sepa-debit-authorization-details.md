@@ -1,11 +1,11 @@
 
-# Sepa Debit Authorization Details
+# SEPA Debit Authorization Details
 
 Authorization details.
 
 ## Structure
 
-`SepaDebitAuthorizationDetails`
+`SEPADebitAuthorizationDetails`
 
 ## Fields
 

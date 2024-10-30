@@ -15,8 +15,8 @@ The payment source definition.
 | `token` | [`Token \| undefined`](../../doc/models/token.md) | Optional | The tokenized payment source to fund a payment. |
 | `paypal` | [`PaypalWallet \| undefined`](../../doc/models/paypal-wallet.md) | Optional | A resource that identifies a PayPal Wallet is used for payment. |
 | `bancontact` | [`BancontactPaymentRequest \| undefined`](../../doc/models/bancontact-payment-request.md) | Optional | Information needed to pay using Bancontact. |
-| `blik` | [`BlikPaymentRequest \| undefined`](../../doc/models/blik-payment-request.md) | Optional | Information needed to pay using BLIK. |
-| `eps` | [`EpsPaymentRequest \| undefined`](../../doc/models/eps-payment-request.md) | Optional | Information needed to pay using eps. |
+| `blik` | [`BLIKPaymentRequest \| undefined`](../../doc/models/blik-payment-request.md) | Optional | Information needed to pay using BLIK. |
+| `eps` | [`EPSPaymentRequest \| undefined`](../../doc/models/eps-payment-request.md) | Optional | Information needed to pay using eps. |
 | `giropay` | [`GiropayPaymentRequest \| undefined`](../../doc/models/giropay-payment-request.md) | Optional | Information needed to pay using giropay. |
 | `ideal` | [`IdealPaymentRequest \| undefined`](../../doc/models/ideal-payment-request.md) | Optional | Information needed to pay using iDEAL. |
 | `mybank` | [`MybankPaymentRequest \| undefined`](../../doc/models/mybank-payment-request.md) | Optional | Information needed to pay using MyBank. |

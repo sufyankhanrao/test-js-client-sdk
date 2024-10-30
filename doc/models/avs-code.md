@@ -1,11 +1,11 @@
 
-# Avs Code
+# AVS Code
 
 The address verification code for Visa, Discover, Mastercard, or American Express transactions.
 
 ## Enumeration
 
-`AvsCode`
+`AVSCode`
 
 ## Fields
 

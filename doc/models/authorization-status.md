@@ -11,10 +11,10 @@ The status for the authorized payment.
 
 | Name |
 |  --- |
-| `Created` |
-| `Captured` |
-| `Denied` |
-| `PartiallyCaptured` |
-| `Voided` |
-| `Pending` |
+| `CREATED` |
+| `CAPTURED` |
+| `DENIED` |
+| `PARTIALLYCAPTURED` |
+| `VOIDED` |
+| `PENDING` |
 

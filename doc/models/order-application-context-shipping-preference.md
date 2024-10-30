@@ -11,7 +11,7 @@ DEPRECATED. DEPRECATED. The shipping preference:<ul><li>Displays the shipping ad
 
 | Name |
 |  --- |
-| `GetFromFile` |
-| `NoShipping` |
-| `SetProvidedAddress` |
+| `GETFROMFILE` |
+| `NOSHIPPING` |
+| `SETPROVIDEDADDRESS` |
 

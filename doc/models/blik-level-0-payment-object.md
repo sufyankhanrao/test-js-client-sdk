@@ -1,11 +1,11 @@
 
-# Blik Level 0 Payment Object
+# BLIK Level 0 Payment Object
 
 Information used to pay using BLIK level_0 flow.
 
 ## Structure
 
-`BlikLevel0PaymentObject`
+`BLIKLevel0PaymentObject`
 
 ## Fields
 

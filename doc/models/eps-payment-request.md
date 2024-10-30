@@ -1,11 +1,11 @@
 
-# Eps Payment Request
+# EPS Payment Request
 
 Information needed to pay using eps.
 
 ## Structure
 
-`EpsPaymentRequest`
+`EPSPaymentRequest`
 
 ## Fields
 

@@ -11,7 +11,7 @@ The type of landing page to show on the PayPal site for customer checkout.
 
 | Name |
 |  --- |
-| `Login` |
-| `GuestCheckout` |
-| `NoPreference` |
+| `LOGIN` |
+| `GUESTCHECKOUT` |
+| `NOPREFERENCE` |
 

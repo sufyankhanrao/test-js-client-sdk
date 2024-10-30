@@ -11,6 +11,6 @@ The account status indicates whether the buyer has verified the financial detail
 
 | Name |
 |  --- |
-| `Verified` |
-| `Unverified` |
+| `VERIFIED` |
+| `UNVERIFIED` |
 

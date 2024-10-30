@@ -11,7 +11,7 @@ DEPRECATED. DEPRECATED. The type of landing page to show on the PayPal site for 
 
 | Name |
 |  --- |
-| `Login` |
-| `Billing` |
-| `NoPreference` |
+| `LOGIN` |
+| `BILLING` |
+| `NOPREFERENCE` |
 

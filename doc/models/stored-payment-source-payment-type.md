@@ -11,7 +11,7 @@ Indicates the type of the stored payment_source payment.
 
 | Name |
 |  --- |
-| `OneTime` |
-| `Recurring` |
-| `Unscheduled` |
+| `ONETIME` |
+| `RECURRING` |
+| `UNSCHEDULED` |
 

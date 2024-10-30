@@ -11,6 +11,6 @@ The tokenization method that generated the ID.
 
 | Name |
 |  --- |
-| `BillingAgreement` |
-| `SetupToken` |
+| `BILLINGAGREEMENT` |
+| `SETUPTOKEN` |
 

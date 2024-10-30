@@ -1,11 +1,11 @@
 
-# Ach Debit Response
+# ACH Debit Response
 
 A Resource representing a response of vaulted a ACH Debit Account.
 
 ## Structure
 
-`AchDebitResponse`
+`ACHDebitResponse`
 
 ## Fields
 

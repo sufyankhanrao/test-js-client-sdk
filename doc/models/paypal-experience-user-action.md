@@ -11,6 +11,6 @@ Configures a <strong>Continue</strong> or <strong>Pay Now</strong> checkout flow
 
 | Name |
 |  --- |
-| `Continue` |
-| `PayNow` |
+| `CONTINUE` |
+| `PAYNOW` |
 

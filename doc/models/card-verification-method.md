@@ -11,8 +11,8 @@ The method used for card verification.
 
 | Name |
 |  --- |
-| `ScaAlways` |
-| `ScaWhenRequired` |
-| `Enum3DSecure` |
-| `AvsCvv` |
+| `SCAALWAYS` |
+| `SCAWHENREQUIRED` |
+| `Enum3DSECURE` |
+| `AVSCVV` |
 

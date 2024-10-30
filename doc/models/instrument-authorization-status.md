@@ -11,10 +11,10 @@ The authorization status of the wallet instrument.
 
 | Name |
 |  --- |
-| `Authorized` |
-| `Blocked` |
-| `Failed` |
-| `NotApplicable` |
-| `NotSupported` |
-| `Unauthorized` |
+| `AUTHORIZED` |
+| `BLOCKED` |
+| `FAILED` |
+| `NOTAPPLICABLE` |
+| `NOTSUPPORTED` |
+| `UNAUTHORIZED` |
 

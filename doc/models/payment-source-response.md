@@ -14,8 +14,8 @@ The payment source used to fund the payment.
 | `card` | [`CardResponse \| undefined`](../../doc/models/card-response.md) | Optional | The payment card to use to fund a payment. Card can be a credit or debit card. |
 | `paypal` | [`PaypalWalletResponse \| undefined`](../../doc/models/paypal-wallet-response.md) | Optional | The PayPal Wallet response. |
 | `bancontact` | [`BancontactPaymentObject \| undefined`](../../doc/models/bancontact-payment-object.md) | Optional | Information used to pay Bancontact. |
-| `blik` | [`BlikPaymentObject \| undefined`](../../doc/models/blik-payment-object.md) | Optional | Information used to pay using BLIK. |
-| `eps` | [`EpsPaymentObject \| undefined`](../../doc/models/eps-payment-object.md) | Optional | Information used to pay using eps. |
+| `blik` | [`BLIKPaymentObject \| undefined`](../../doc/models/blik-payment-object.md) | Optional | Information used to pay using BLIK. |
+| `eps` | [`EPSPaymentObject \| undefined`](../../doc/models/eps-payment-object.md) | Optional | Information used to pay using eps. |
 | `giropay` | [`GiropayPaymentObject \| undefined`](../../doc/models/giropay-payment-object.md) | Optional | Information needed to pay using giropay. |
 | `ideal` | [`IdealPaymentObject \| undefined`](../../doc/models/ideal-payment-object.md) | Optional | Information used to pay using iDEAL. |
 | `mybank` | [`MybankPaymentObject \| undefined`](../../doc/models/mybank-payment-object.md) | Optional | Information used to pay using MyBank. |

@@ -11,6 +11,6 @@ The customer type associated with the PayPal payment token. This is to indicate 
 
 | Name |
 |  --- |
-| `Consumer` |
-| `Business` |
+| `CONSUMER` |
+| `BUSINESS` |
 

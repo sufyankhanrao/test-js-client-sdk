@@ -11,8 +11,8 @@ The status of the refund.
 
 | Name |
 |  --- |
-| `Cancelled` |
-| `Failed` |
-| `Pending` |
-| `Completed` |
+| `CANCELLED` |
+| `FAILED` |
+| `PENDING` |
+| `COMPLETED` |
 

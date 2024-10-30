@@ -11,6 +11,6 @@ Authentication Method which is used for the card transaction.
 
 | Name |
 |  --- |
-| `PanOnly` |
-| `Cryptogram3Ds` |
+| `PANONLY` |
+| `CRYPTOGRAM3DS` |
 

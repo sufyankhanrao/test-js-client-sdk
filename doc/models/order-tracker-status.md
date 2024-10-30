@@ -11,6 +11,6 @@ The status of the item shipment.
 
 | Name |
 |  --- |
-| `Cancelled` |
-| `Shipped` |
+| `CANCELLED` |
+| `SHIPPED` |
 

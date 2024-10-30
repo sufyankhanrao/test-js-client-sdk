@@ -1,5 +1,5 @@
 
-# Getting Started with PayPal REST APIs
+# Getting Started with PayPal Server SDK
 
 ## Introduction
 
@@ -23,7 +23,7 @@ Run the following commands in the command prompt or shell of your choice to chec
 
 * npm: `npm --version`
 
-![Version Check](https://apidocs.io/illustration/typescript?workspaceFolder=PaypalRestApis&step=versionCheck)
+![Version Check](https://apidocs.io/illustration/typescript?workspaceFolder=PaypalServerSDK&step=versionCheck)
 
 ### Install Dependencies
 
@@ -35,7 +35,7 @@ npm install
 
 - This will install all dependencies in the **node_modules** folder.
 
-![Resolve Dependencies](https://apidocs.io/illustration/typescript?workspaceFolder=PaypalRestApis&workspaceName=paypal-rest-apis-lib&step=resolveDependency)
+![Resolve Dependencies](https://apidocs.io/illustration/typescript?workspaceFolder=PaypalServerSDK&workspaceName=paypal-server-sdklib&step=resolveDependency)
 
 ## Installation
 
@@ -59,9 +59,9 @@ npm init --y
 
 ### 2. Add Dependencies to the Client Library
 
-- The created project manages its dependencies using its `package.json` file. In order to add a dependency on the *PayPal REST APIsLib* client library, double click on the `package.json` file in the bar on the left and add the dependency to the package in it.
+- The created project manages its dependencies using its `package.json` file. In order to add a dependency on the *PayPal Server SDKLib* client library, double click on the `package.json` file in the bar on the left and add the dependency to the package in it.
 
-![Add PaypalRestApisLib Dependency](https://apidocs.io/illustration/typescript?workspaceFolder=PaypalRestApis&workspaceName=paypal-rest-apis-lib&step=importDependency)
+![Add PaypalServerSdklib Dependency](https://apidocs.io/illustration/typescript?workspaceFolder=PaypalServerSDK&workspaceName=paypal-server-sdklib&step=importDependency)
 
 - To install the package in the project, run the following command in the terminal:
 
@@ -69,11 +69,11 @@ npm init --y
 npm install
 ```
 
-![Install PaypalRestApisLib Dependency](https://apidocs.io/illustration/typescript?step=installDependency)
+![Install PaypalServerSdklib Dependency](https://apidocs.io/illustration/typescript?step=installDependency)
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.0/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.1/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -83,8 +83,8 @@ The following parameters are configurable for the API Client:
 | `timeout` | `number` | Timeout for API calls.<br>*Default*: `0` |
 | `httpClientOptions` | `Partial<HttpClientOptions>` | Stable configurable http client options. |
 | `unstableHttpClientOptions` | `any` | Unstable configurable http client options. |
-| `logging` | [`PartialLoggingOptions`](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.0/doc/partial-logging-options.md) | Logging Configuration to enable logging |
-| `clientCredentialsAuthCredentials` | [`ClientCredentialsAuthCredentials`](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.0/doc/auth/oauth-2-client-credentials-grant.md) | The credential object for clientCredentialsAuth |
+| `logging` | [`PartialLoggingOptions`](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.1/doc/partial-logging-options.md) | Logging Configuration to enable logging |
+| `clientCredentialsAuthCredentials` | [`ClientCredentialsAuthCredentials`](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.1/doc/auth/oauth-2-client-credentials-grant.md) | The credential object for clientCredentialsAuth |
 
 ### HttpClientOptions
 
@@ -144,20 +144,20 @@ The SDK can be configured to use a different environment for making API calls. A
 
 This API uses the following authentication schemes.
 
-* [`Oauth2 (OAuth 2 Client Credentials Grant)`](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.0/doc/auth/oauth-2-client-credentials-grant.md)
+* [`Oauth2 (OAuth 2 Client Credentials Grant)`](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.1/doc/auth/oauth-2-client-credentials-grant.md)
 
 ## List of APIs
 
-* [Orders](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.0/doc/controllers/orders.md)
-* [Payments](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.0/doc/controllers/payments.md)
-* [Vault](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.0/doc/controllers/vault.md)
+* [Orders](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.1/doc/controllers/orders.md)
+* [Payments](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.1/doc/controllers/payments.md)
+* [Vault](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.1/doc/controllers/vault.md)
 
 ## Classes Documentation
 
-* [ApiResponse](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.0/doc/api-response.md)
-* [ApiError](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.0/doc/api-error.md)
-* [PartialLoggingOptions](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.0/doc/partial-logging-options.md)
-* [PartialRequestLoggingOptions](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.0/doc/partial-request-logging-options.md)
-* [PartialResponseLoggingOptions](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.0/doc/partial-response-logging-options.md)
-* [LoggerInterface](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.0/doc/logger-interface.md)
+* [ApiResponse](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.1/doc/api-response.md)
+* [ApiError](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.1/doc/api-error.md)
+* [PartialLoggingOptions](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.1/doc/partial-logging-options.md)
+* [PartialRequestLoggingOptions](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.1/doc/partial-request-logging-options.md)
+* [PartialResponseLoggingOptions](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.1/doc/partial-response-logging-options.md)
+* [LoggerInterface](https://www.github.com/sufyankhanrao/test-js-client-sdk/tree/1.0.1/doc/logger-interface.md)
 

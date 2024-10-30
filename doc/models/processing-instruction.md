@@ -11,6 +11,6 @@ The instruction to process an order.
 
 | Name |
 |  --- |
-| `OrderCompleteOnPaymentApproval` |
-| `NoInstruction` |
+| `ORDERCOMPLETEONPAYMENTAPPROVAL` |
+| `NOINSTRUCTION` |
 
